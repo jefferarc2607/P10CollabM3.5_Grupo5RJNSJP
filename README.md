@@ -1,2 +1,9 @@
-# P10CollabM3.5_Grupo5RJNSJP
-Repositorio colaborativo de la Práctica 10 
+# Repo colaborativo práctica 10
+Análisis de resultados en repositorio colaborativo.
+Grupo 5:
+- Jhoseline Grijalva
+- Paola Ramírez
+- Steven Ávila
+- Rodrigo Carballo
+- Jefferson Arce
+- Cristian Navas
