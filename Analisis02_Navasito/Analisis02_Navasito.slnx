@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="Analisis02_Navasito.csproj" />
+  <Project Path="../../../../Documents/Practica 10/Analisis06_6133261/Analisis06_6133261.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Analisis02_Navasito.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>
