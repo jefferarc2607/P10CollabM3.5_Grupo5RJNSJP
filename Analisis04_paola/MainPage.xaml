@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Analisis04_paola.MainPage">
+    <!-- Aplicacion de Paola-->
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+            <Label Text="SUELDO SEMANAL" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+            <Label Text="Horas trabajadas:"/>
+            <Entry x:Name="HorasEntry" Placeholder="Ejemplo: 40" Keyboard="Numeric"/>
+
+            <Label Text="Pago por hora:"/>
+            <Entry x:Name="PagoHoraEntry" Placeholder="Ejemplo: 150" Keyboard="Numeric"/>
+
+            <Button Text="Calcular Sueldo" Clicked="CalcularSueldo"/>
+
+            <Label x:Name="ResultadoLabel" FontSize="18" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
