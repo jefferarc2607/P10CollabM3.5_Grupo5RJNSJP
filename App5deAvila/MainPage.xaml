@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5deAvila.MainPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+            <Label Text="LANGOSTA AHUMADA" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="Banquetes" FontSize="18" HorizontalOptions="Center"/>
+
+            <Label Text="Numero de personas:"/>
+            <Entry x:Name="PersonasEntry" Placeholder="Ejemplo: 250" Keyboard="Numeric"/>
+
+            <Button Text="Calcular Presupuesto" Clicked="CalcularPresupuesto"/>
+
+            <Label x:Name="ResultadoLabel" FontSize="18" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
