@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Analisis01_19795362.MainPage"
+             BackgroundColor="#0A1A3C">
+
+    <Grid RowDefinitions="Auto,Auto,*" Padding="20" RowSpacing="15">
+
+        <Label Grid.Row="0"
+               Text="Números pares del 0 al 100"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalOptions="Center" />
+
+        <!--generar la lista -->
+        <Button Grid.Row="1"
+                x:Name="BtnGenerar"
+                Text="Generar números pares"
+                Clicked="BtnGenerar_Clicked"
+                BackgroundColor="#12275C"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10"
+                HorizontalOptions="Center" />
+
+        <!--se muestran los pares -->
+        <CollectionView Grid.Row="2"
+                         x:Name="ListaPares"
+                         SelectionMode="None">
+            <CollectionView.ItemsLayout>
+                <!--en columnas para que no sea una lista larga -->
+                <GridItemsLayout Orientation="Vertical" Span="5" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border StrokeShape="RoundRectangle 8"
+                            BackgroundColor="#1E3A73"
+                            Margin="4"
+                            Padding="10">
+                        <Label Text="{Binding .}"
+                               TextColor="#AFCBFF"
+                               HorizontalOptions="Center"
+                               FontSize="16" />
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+
+</ContentPage>
