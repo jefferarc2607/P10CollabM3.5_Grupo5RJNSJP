@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuAppColab.MainPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+            <Label Text="MENU DE APLICACIONES" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="Equipo Colaboradores" FontSize="18" HorizontalOptions="Center"/>
+
+            <Button Text="1. Numeros Pares - Rodriquito" Clicked="IrAplicacion1" BackgroundColor="#4CAF50" TextColor="White"/>
+            <Button Text="2. Cuenta Regresiva - Navasito" Clicked="IrAplicacion2" BackgroundColor="#2196F3" TextColor="White"/>
+            <Button Text="3. Tablas de Multiplicar - Jhoseline" Clicked="IrAplicacion3" BackgroundColor="#FF9800" TextColor="White"/>
+            <Button Text="4. Sueldo Semanal - Paola" Clicked="IrAplicacion4" BackgroundColor="#9C27B0" TextColor="White"/>
+            <Button Text="5. Langosta Ahumada - Avila" Clicked="IrAplicacion5" BackgroundColor="#F44336" TextColor="White"/>
+            <Button Text="6. Conversor Dolares - Jefferson" Clicked="IrAplicacion6" BackgroundColor="#00BCD4" TextColor="White"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

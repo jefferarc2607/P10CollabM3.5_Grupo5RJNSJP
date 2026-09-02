@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Analisis01_19795362/Analisis01_19795362.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Analisis02_Navasito/Analisis02_Navasito.csproj" />
+  <Project Path="Analisis04_paola/Analisis04_paola.csproj" />
+  <Project Path="Analisis06_6133261/Analisis06_6133261.csproj" />
+  <Project Path="App5deAvila/App5deAvila.csproj" />
+  <Project Path="MenuAppColab/MenuAppColab.csproj" />
+</Solution>

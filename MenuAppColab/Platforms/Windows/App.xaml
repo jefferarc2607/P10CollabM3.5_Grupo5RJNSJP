@@ -1,9 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="Analisis01_19795362.WinUI.App"
+    x:Class="MenuAppColab.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:Analisis01_19795362.WinUI">
+    xmlns:local="using:MenuAppColab.WinUI">
 
 </maui:MauiWinUIApplication>
-
